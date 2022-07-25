@@ -9,6 +9,7 @@ import (
 
 	"github.com/wailsapp/wails/v2/pkg/options/linux"
 	"github.com/wailsapp/wails/v2/pkg/options/mac"
+	"github.com/wailsapp/wails/v2/pkg/options/server"
 	"github.com/wailsapp/wails/v2/pkg/options/windows"
 
 	"github.com/wailsapp/wails/v2/pkg/menu"
@@ -64,6 +65,7 @@ type App struct {
 	Windows *windows.Options
 	Mac     *mac.Options
 	Linux   *linux.Options
+	Server  *server.Options
 }
 
 type RGBA struct {
